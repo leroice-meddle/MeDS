@@ -1,0 +1,14 @@
+{
+  "tokenSetOrder": [
+    "global",
+    "Color/MeDS Light",
+    "Color/MeDS Dark",
+    "Color Primitives/Value",
+    "Typography Primitives/Default",
+    "Typography/Mode 1",
+    "Responsive/Desktop",
+    "Responsive/Mobile",
+    "Responsive/Tablet",
+    "Size/Default"
+  ]
+}

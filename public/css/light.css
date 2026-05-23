@@ -1,0 +1,411 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --meddleSlate100: #f3f3f3;
+  --meddleSlate200: #e3e3e3;
+  --meddleSlate300: #cdcdcd;
+  --meddleSlate400: #b2b2b2;
+  --meddleSlate500: #949494;
+  --meddleSlate600: #767676;
+  --meddleSlate700: #5a5a5a;
+  --meddleSlate800: #434343;
+  --meddleSlate900: #303030;
+  --meddleSlate1000: #242424;
+  --meddleWhite100: rgba(255, 255, 255, 0.05);
+  --meddleWhite200: rgba(255, 255, 255, 0.1);
+  --meddleWhite300: rgba(255, 255, 255, 0.2);
+  --meddleWhite400: rgba(255, 255, 255, 0.4);
+  --meddleWhite500: rgba(255, 255, 255, 0.7);
+  --meddleWhite600: rgba(255, 255, 255, 0.8);
+  --meddleWhite700: rgba(255, 255, 255, 0.85);
+  --meddleWhite800: rgba(255, 255, 255, 0.9);
+  --meddleWhite900: rgba(255, 255, 255, 0.95);
+  --meddleWhite1000: #ffffff;
+  --meddleBrand50: #f0f7f8;
+  --meddleBrand100: #d9eaed;
+  --meddleBrand200: #b3d5db;
+  --meddleBrand300: #85bcc6;
+  --meddleBrand400: #85bcc6;
+  --meddleBrand500: #007388;
+  --meddleBrand600: #005e70;
+  --meddleBrand700: #004b58;
+  --meddleBrand800: #003741;
+  --meddleBrand900: #001b1f;
+  --meddleBrand950: #001518;
+  --meddleRed100: #fee9e7;
+  --meddleRed200: #fdd3d0;
+  --meddleRed300: #fcb3ad;
+  --meddleRed400: #f4776a;
+  --meddleRed500: #ec221f;
+  --meddleRed600: #c00f0c;
+  --meddleRed700: #900b09;
+  --meddleRed800: #690807;
+  --meddleRed900: #4d0b0a;
+  --meddleRed1000: #300603;
+  --meddleYellow100: #fffbeb;
+  --meddleYellow200: #fff1c2;
+  --meddleYellow300: #ffe8a3;
+  --meddleYellow400: #e8b931;
+  --meddleYellow500: #e5a000;
+  --meddleYellow600: #bf6a02;
+  --meddleYellow700: #975102;
+  --meddleYellow800: #682d03;
+  --meddleYellow900: #522504;
+  --meddleYellow1000: #401b01;
+  --meddleGreen100: #ebffee;
+  --meddleGreen200: #cff7d3;
+  --meddleGreen300: #aff4c6;
+  --meddleGreen400: #85e0a3;
+  --meddleGreen500: #14ae5c;
+  --meddleGreen600: #009951;
+  --meddleGreen700: #008043;
+  --meddleGreen800: #02542d;
+  --meddleGreen900: #024023;
+  --meddleGreen1000: #062d1b;
+  --meddleBlack100: rgba(12, 12, 13, 0.05);
+  --meddleBlack200: rgba(12, 12, 13, 0.1);
+  --meddleBlack300: rgba(12, 12, 13, 0.2);
+  --meddleBlack400: rgba(12, 12, 13, 0.4);
+  --meddleBlack500: rgba(12, 12, 13, 0.7);
+  --meddleBlack600: rgba(12, 12, 13, 0.8);
+  --meddleBlack700: rgba(12, 12, 13, 0.85);
+  --meddleBlack800: rgba(12, 12, 13, 0.9);
+  --meddleBlack900: rgba(12, 12, 13, 0.95);
+  --meddleBlack1000: #0c0c0d;
+  --meddlePink100: #fcf1fd;
+  --meddlePink200: #fae1fa;
+  --meddlePink300: #f5c0ef;
+  --meddlePink400: #f19edc;
+  --meddlePink500: #ea3fb8;
+  --meddlePink600: #d732a8;
+  --meddlePink700: #ba2a92;
+  --meddlePink800: #8a226f;
+  --meddlePink900: #57184a;
+  --meddlePink1000: #3f1536;
+  --meddleGray100: #f5f5f5;
+  --meddleGray200: #e6e6e6;
+  --meddleGray300: #d9d9d9;
+  --meddleGray400: #b3b3b3;
+  --meddleGray500: #757575;
+  --meddleGray600: #444444;
+  --meddleGray700: #383838;
+  --meddleGray800: #2c2c2c;
+  --meddleGray900: #1e1e1e;
+  --meddleGray1000: #111111;
+  --meddleBlue100: #f1f6fd;
+  --meddleBlue200: #e1ebfa;
+  --meddleBlue300: #c0d4f5;
+  --meddleBlue400: #9ebef1;
+  --meddleBlue500: #3f81ea;
+  --meddleBlue600: #3271d7;
+  --meddleBlue700: #2a61ba;
+  --meddleBlue800: #224a8a;
+  --meddleBlue900: #183057;
+  --meddleBlue1000: #15253f;
+  --meddleTeal50: #f0f7f8;
+  --meddleTeal100: #d9eaed;
+  --meddleTeal200: #b3d5db;
+  --meddleTeal300: #85bcc6;
+  --meddleTeal400: #4d9dac;
+  --meddleTeal500: #007388;
+  --meddleTeal600: #005e70;
+  --meddleTeal700: #004b58;
+  --meddleTeal800: #003741;
+  --meddleTeal900: #001b1f;
+  --meddleTeal950: #001518;
+  --meddleFamilySans: Geist;
+  --meddleFamilySerif: Noto Serif;
+  --meddleFamilyMono: Geist Mono;
+  --meddleWeightLightItalic: Light Italic;
+  --meddleWeightRegularItalic: Italic;
+  --meddleWeightBoldItalic: Bold Italic;
+  --meddleWeightThinItalic: Thin Italic;
+  --meddleWeightExtralightItalic: Extra Light Italic;
+  --meddleWeightMediumItalic: Medium Italic;
+  --meddleWeightSemiboldItalic: Semi Bold Italic;
+  --meddleWeightExtraBoldItalic: Extra Bold Italic;
+  --meddleWeightBlackItalic: Black Italic;
+  --meddleWeightThin: 100;
+  --meddleWeightExtraLight: 200;
+  --meddleWeightLight: 300;
+  --meddleWeightRegular: 400;
+  --meddleWeightMedium: 500;
+  --meddleWeightSemibold: 550;
+  --meddleWeightBold: 600;
+  --meddleWeightExtraBold: 800;
+  --meddleWeightBlack: 900;
+  --meddleScale10: 72;
+  --meddleScale09: 64;
+  --meddleScale08: 48;
+  --meddleScale07: 40;
+  --meddleScale06: 32;
+  --meddleScale05: 24;
+  --meddleScale04: 20;
+  --meddleScale03: 16;
+  --meddleScale02: 14;
+  --meddleScale01: 12;
+  --meddleScale005: 11;
+  --meddleSpace0: 0;
+  --meddleSpace100: 4;
+  --meddleSpace150: 6;
+  --meddleSpace200: 8;
+  --meddleSpace300: 12;
+  --meddleSpace400: 16;
+  --meddleSpace600: 24;
+  --meddleSpace800: 32;
+  --meddleSpace1200: 48;
+  --meddleSpace1600: 64;
+  --meddleSpace2400: 96;
+  --meddleSpace4000: 160;
+  --meddleSpaceNegative100: -4;
+  --meddleSpaceNegative200: -8;
+  --meddleSpaceNegative300: -12;
+  --meddleSpaceNegative400: -16;
+  --meddleSpaceNegative600: -24;
+  --meddleSpace050: 2;
+  --meddleRadius100: 2;
+  --meddleRadius200: 4;
+  --meddleRadius300: 8;
+  --meddleRadius400: 12;
+  --meddleRadius500: 16;
+  --meddleRadiusFull: 9999;
+  --meddleDepth0: 0;
+  --meddleDepth100: 4;
+  --meddleDepth200: 8;
+  --meddleDepth400: 16;
+  --meddleDepth800: 32;
+  --meddleDepth1200: 48;
+  --meddleDepth025: 1;
+  --meddleDepthNegative025: -1;
+  --meddleDepthNegative100: -4;
+  --meddleDepthNegative200: -8;
+  --meddleDepthNegative400: -16;
+  --meddleDepthNegative800: -32;
+  --meddleDepthNegative1200: -48;
+  --meddleStrokeBorder: 1;
+  --meddleStrokeFocusRing: 2;
+  --meddleBlur100: 4;
+  --meddleIconSmall: 24;
+  --meddleIconMedium: 32;
+  --meddleIconLarge: 40;
+  --meddleIconDefaultDefault: #1e1e1e;
+  --meddleIconDefaultSecondary: #757575;
+  --meddleIconDefaultTertiary: #b3b3b3;
+  --meddleIconDefaultLink: #3f81ea;
+  --meddleIconBrandDefault: #003741;
+  --meddleIconBrandSecondary: #005e70;
+  --meddleIconBrandTertiary: #007388;
+  --meddleIconBrandOnBrand: #f0f7f8;
+  --meddleIconBrandOnBrandSecondary: #001b1f;
+  --meddleIconBrandOnBrandTertiary: #003741;
+  --meddleIconPositiveDefault: #02542d;
+  --meddleIconPositiveSecondary: #009951;
+  --meddleIconPositiveTertiary: #14ae5c;
+  --meddleIconPositiveOnPositive: #ebffee;
+  --meddleIconPositiveOnPositiveSecondary: #02542d;
+  --meddleIconPositiveOnPositiveTertiary: #024023;
+  --meddleIconWarningDefault: #522504;
+  --meddleIconWarningSecondary: #975102;
+  --meddleIconWarningTertiary: #bf6a02;
+  --meddleIconWarningOnWarning: #401b01;
+  --meddleIconWarningOnWarningSecondary: #682d03;
+  --meddleIconWarningOnWarningTertiary: #522504;
+  --meddleIconDangerDefault: #900b09;
+  --meddleIconDangerSecondary: #c00f0c;
+  --meddleIconDangerTertiary: #ec221f;
+  --meddleIconDangerOnDanger: #fee9e7;
+  --meddleIconDangerOnDangerSecondary: #900b09;
+  --meddleIconDangerOnDangerTertiary: #900b09;
+  --meddleIconDisabledDefault: #b3b3b3;
+  --meddleIconDisabledOnDisabled: #b3b3b3;
+  --meddleIconNeutralDefault: #303030;
+  --meddleIconNeutralSecondary: #5a5a5a;
+  --meddleIconNeutralTertiary: #767676;
+  --meddleIconNeutralOnNeutral: #f3f3f3;
+  --meddleIconNeutralOnNeutralSecondary: #303030;
+  --meddleIconNeutralOnNeutralTertiary: #434343;
+  --meddleIconUtilitiesIconOnMeasurement: #8a226f;
+  --meddleIconUtilitiesIcon: #d732a8;
+  --meddleBackgroundDefaultDefault: #ffffff; /** Bg/Default/Default */
+  --meddleBackgroundDefaultSecondary: #f5f5f5; /** Bg/Default/Secondary */
+  --meddleBackgroundDefaultTertiary: #d9d9d9; /** Bg/Default/Tertiary */
+  --meddleBackgroundDefaultDefaultHover: #f5f5f5; /** Bg/Default/Default Hover */
+  --meddleBackgroundDefaultSecondaryHover: #e6e6e6; /** Bg/Default/Secondary Hover */
+  --meddleBackgroundDefaultTertiaryHover: #b3b3b3; /** Bg/Default/Tertiary Hover */
+  --meddleBackgroundBrandDefault: #005e70; /** Bg/Brand/Default */
+  --meddleBackgroundBrandSecondary: #b3d5db; /** Bg/Brand/Secondary */
+  --meddleBackgroundBrandHover: #001b1f; /** Bg/Brand/Hover */
+  --meddleBackgroundBrandSecondaryHover: #85bcc6; /** Bg/Brand/Secondary Hover */
+  --meddleBackgroundBrandTertiary: #f0f7f8; /** Bg/Brand/Tertiary */
+  --meddleBackgroundBrandTertiaryHover: #b3d5db; /** Bg/Brand/Tertiary Hover */
+  --meddleBackgroundPositiveDefault: #14ae5c; /** Bg/Positive/Default */
+  --meddleBackgroundPositiveSecondary: #cff7d3; /** Bg/Positive/Secondary */
+  --meddleBackgroundPositiveHover: #009951; /** Bg/Positive/Hover */
+  --meddleBackgroundPositiveSecondaryHover: #aff4c6; /** Bg/Positive/Secondary Hover */
+  --meddleBackgroundPositiveTertiary: #ebffee; /** Bg/Positive/Tertiary */
+  --meddleBackgroundPositiveTertiaryHover: #cff7d3; /** Bg/Positive/Tertiary Hover */
+  --meddleBackgroundWarningDefault: #e8b931; /** Bg/Warning/Default */
+  --meddleBackgroundWarningSecondary: #fff1c2; /** Bg/Warning/Secondary */
+  --meddleBackgroundWarningHover: #e5a000; /** Bg/Warning/Hover */
+  --meddleBackgroundWarningSecondaryHover: #ffe8a3; /** Bg/Warning/Secondary Hover */
+  --meddleBackgroundWarningTertiary: #fffbeb; /** Bg/Warning/Tertiary */
+  --meddleBackgroundWarningTertiaryHover: #fff1c2; /** Bg/Warning/Tertiary Hover */
+  --meddleBackgroundDangerDefault: #ec221f; /** Bg/Danger/Default */
+  --meddleBackgroundDangerSecondary: #fdd3d0; /** Bg/Danger/Secondary */
+  --meddleBackgroundDangerHover: #c00f0c; /** Bg/Danger/Hover */
+  --meddleBackgroundDangerSecondaryHover: #fcb3ad; /** Bg/Danger/Secondary Hover */
+  --meddleBackgroundDangerTertiary: #fee9e7; /** Bg/Danger/Tertiary */
+  --meddleBackgroundDangerTertiaryHover: #fdd3d0; /** Bg/Danger/Tertiary Hover */
+  --meddleBackgroundDisabledDefault: #d9d9d9; /** Bg/Disabled/Default */
+  --meddleBackgroundUtilitiesScrim: rgba(255, 255, 255, 0.8); /** Bg/Utilities/Scrim */
+  --meddleBackgroundUtilitiesOverlay: rgba(0, 0, 0, 0.5); /** Bg/Utilities/Overlay */
+  --meddleBackgroundUtilitiesBlanket: rgba(0, 0, 0, 0.7); /** Bg/Utilities/Blanket */
+  --meddleBackgroundUtilitiesMeasurement: #fae1fa; /** Bg/Utilities/Measurement */
+  --meddleBackgroundNeutralDefault: #5a5a5a; /** Bg/Neutral/Default */
+  --meddleBackgroundNeutralHover: #434343; /** Bg/Neutral/Hover */
+  --meddleBackgroundNeutralSecondary: #cdcdcd; /** Bg/Neutral/Secondary */
+  --meddleBackgroundNeutralSecondaryHover: #b2b2b2; /** Bg/Neutral/Secondary Hover */
+  --meddleBackgroundNeutralTertiary: #e3e3e3; /** Bg/Neutral/Tertiary */
+  --meddleBackgroundNeutralTertiaryHover: #cdcdcd; /** Bg/Neutral/Tertiary Hover */
+  --meddleTextDefaultDefault: #1e1e1e;
+  --meddleTextDefaultSecondary: #757575;
+  --meddleTextDefaultTertiary: #b3b3b3;
+  --meddleTextDefaultLink: #3f81ea;
+  --meddleTextBrandDefault: #003741;
+  --meddleTextBrandSecondary: #005e70;
+  --meddleTextBrandTertiary: #007388;
+  --meddleTextBrandOnBrand: #f0f7f8;
+  --meddleTextBrandOnBrandSecondary: #001b1f;
+  --meddleTextBrandOnBrandTertiary: #003741;
+  --meddleTextPositiveDefault: #02542d;
+  --meddleTextPositiveSecondary: #009951;
+  --meddleTextPositiveTertiary: #14ae5c;
+  --meddleTextPositiveOnPositive: #ebffee;
+  --meddleTextPositiveOnPositiveSecondary: #02542d;
+  --meddleTextPositiveOnPositiveTertiary: #02542d;
+  --meddleTextWarningDefault: #522504;
+  --meddleTextWarningSecondary: #975102;
+  --meddleTextWarningTertiary: #bf6a02;
+  --meddleTextWarningOnWarning: #401b01;
+  --meddleTextWarningOnWarningSecondary: #682d03;
+  --meddleTextWarningOnWarningTertiary: #522504;
+  --meddleTextDangerDefault: #900b09;
+  --meddleTextDangerSecondary: #c00f0c;
+  --meddleTextDangerTertiary: #ec221f;
+  --meddleTextDangerOnDanger: #fee9e7;
+  --meddleTextDangerOnDangerSecondary: #900b09;
+  --meddleTextDangerOnDangerTertiary: #900b09;
+  --meddleTextDisabledDefault: #b3b3b3;
+  --meddleTextDisabledOnDisabled: #b3b3b3;
+  --meddleTextUtilitiesTextOnOverlay: #0c0c0d;
+  --meddleTextUtilitiesTextOnMeasurement: #8a226f;
+  --meddleTextNeutralDefault: #303030;
+  --meddleTextNeutralSecondary: #5a5a5a;
+  --meddleTextNeutralTertiary: #767676;
+  --meddleTextNeutralOnNeutral: #f3f3f3;
+  --meddleTextNeutralOnNeutralSecondary: #303030;
+  --meddleTextNeutralOnNeutralTertiary: #434343;
+  --meddleBorderDefaultDefault: #e6e6e6;
+  --meddleBorderDefaultSecondary: #d9d9d9;
+  --meddleBorderDefaultTertiary: #444444;
+  --meddleBorderDefaultSubtle: rgba(230, 230, 230, 0.6);
+  --meddleBorderBrandDefault: #003741;
+  --meddleBorderBrandSecondary: #005e70;
+  --meddleBorderBrandTertiary: #007388;
+  --meddleBorderBrandDefault2: rgba(0, 55, 65, 0.6);
+  --meddleBorderPositiveDefault: #02542d;
+  --meddleBorderPositiveSecondary: #009951;
+  --meddleBorderPositiveTertiary: #14ae5c;
+  --meddleBorderWarningDefault: #522504;
+  --meddleBorderWarningSecondary: #975102;
+  --meddleBorderWarningTertiary: #bf6a02;
+  --meddleBorderDangerDefault: #900b09;
+  --meddleBorderDangerSecondary: #c00f0c;
+  --meddleBorderDangerTertiary: #ec221f;
+  --meddleBorderDisabledDefault: #b3b3b3;
+  --meddleBorderUtilitiesMeasurement: #f19edc;
+  --meddleBorderUtilitiesSwatch: rgba(0, 0, 0, 0.24);
+  --meddleBorderNeutralDefault: #303030;
+  --meddleBorderNeutralSecondary: #767676;
+  --meddleBorderNeutralTertiary: #b2b2b2;
+  --meddleBorderNeutralSubtle: rgba(48, 48, 48, 0.6);
+  --meddleTintDefault: rgba(12, 12, 13, 0.2);
+  --meddleTintSecondary: rgba(12, 12, 13, 0.1);
+  --meddleTintTertiary: rgba(12, 12, 13, 0.05);
+  --meddleDropShadow100: 0 1px 4px 0 #0c0c0d0d;
+  --meddleDropShadow200: 0 1px 4px 0 #0c0c0d1a, 0 1px 4px 0 #0c0c0d0d;
+  --meddleDropShadow300: 0 4px 4px -1px #0c0c0d1a, 0 4px 4px -1px #0c0c0d0d;
+  --meddleDropShadow400: 0 16px 32px -4px #0c0c0d1a, 0 4px 4px -4px #0c0c0d0d;
+  --meddleDropShadow500: 0 16px 16px -8px #0c0c0d1a, 0 4px 4px -4px #0c0c0d0d;
+  --meddleDropShadow600: 0 16px 32px -8px #0c0c0d66;
+  --meddleInnerShadow100: inset 0 1px 4px 0 #0c0c0d0d;
+  --meddleInnerShadow200: inset 0 1px 4px 0 #0c0c0d0d;
+  --meddleInnerShadow300: inset 0 4px 4px -1px #0c0c0d0d;
+  --meddleInnerShadow400: inset 0 16px 32px -4px #0c0c0d1a;
+  --meddleInnerShadow500: inset 0 16px 16px -8px #0c0c0d1a;
+  --meddleInnerShadow600: inset 0 16px 32px -8px #0c0c0d66;
+  --meddleLineHeights0: 1.2;
+  --meddleLineHeights1: 1.2;
+  --meddleLineHeights2: 1.2;
+  --meddleLineHeights3: 1.2;
+  --meddleLineHeights4: 1.2;
+  --meddleLineHeights5: 1.4;
+  --meddleLineHeights6: 1.4;
+  --meddleLineHeights7: 1.4;
+  --meddleLineHeights8: 1.4;
+  --meddleLineHeights9: 1.4;
+  --meddleLineHeights10: 1.4;
+  --meddleLineHeights11: 1.4;
+  --meddleLineHeights12: 1.4;
+  --meddleLineHeights13: 1.4;
+  --meddleLineHeights14: 1.3;
+  --meddleLineHeights15: 1;
+  --meddleLineHeights16: 1;
+  --meddleLineHeights17: 1.4;
+  --meddleLineHeights18: 1.4;
+  --meddleFontWeightsGeist0: 400;
+  --meddleFontWeightsGeist1: 500;
+  --meddleFontWeightsGeistMono2: 400;
+  --meddleFontWeightsGeistMono3: 600;
+  --meddleFontSize0: 11px;
+  --meddleFontSize1: 12px;
+  --meddleFontSize2: 13px;
+  --meddleFontSize3: 14px;
+  --meddleFontSize4: 16px;
+  --meddleFontSize5: 20px;
+  --meddleFontSize6: 24px;
+  --meddleFontSize7: 32px;
+  --meddleFontSize8: 48px;
+  --meddleFontSize9: 72px;
+  --meddleLetterSpacing0: -0.04em;
+  --meddleLetterSpacing1: -0.024em;
+  --meddleLetterSpacing2: -0.02em;
+  --meddleLetterSpacing3: -0.01em;
+  --meddleLetterSpacing4: 0em;
+  --meddleParagraphSpacing0: 0;
+  --Title Hero: [object Object];
+  --Title Page: [object Object];
+  --Subtitle: [object Object];
+  --Heading: [object Object];
+  --Subheading: [object Object];
+  --Body Base: [object Object];
+  --Body Strong: [object Object];
+  --Body Emphasis: [object Object];
+  --Body Link: [object Object];
+  --Body Small: [object Object];
+  --Body Small Strong: [object Object];
+  --Footnote: [object Object];
+  --Caption 1: [object Object];
+  --Caption 2: [object Object];
+  --Body Code: [object Object];
+  --Body Base: [object Object]; /** Used for any text element where you need 100% line height. For example, an input field, a label. */
+  --Body Small Strong: [object Object];
+  --meddleUtilitiesComponentNotesRegular: 400 16px/1.4 'Geist Mono';
+  --meddleUtilitiesComponentNotesBold: 600 16px/1.4 'Geist Mono';
+  --meddleTextCaseNone: none;
+  --meddleTextDecorationNone: none;
+  --meddleTextDecorationUnderline: underline;
+  --meddleParagraphIndent0: 0px;
+}

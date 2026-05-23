@@ -1,0 +1,48 @@
+{
+  "Device": {
+    "$extensions": {
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.hiddenFromPublishing": false,
+      "com.figma.codeSyntax": {
+        "Web": "var(--sds-responsive-device)"
+      }
+    },
+    "$type": "text",
+    "$value": "tablet"
+  },
+  "Device Width": {
+    "$extensions": {
+      "com.figma.scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "com.figma.hiddenFromPublishing": false,
+      "com.figma.codeSyntax": {
+        "Web": "var(--sds-responsive-device-width)"
+      }
+    },
+    "$type": "number",
+    "$value": 768
+  },
+  "Root Font Size": {
+    "$extensions": {
+      "com.figma.hiddenFromPublishing": false,
+      "com.figma.codeSyntax": {
+        "Web": "var(--sds-responsive-root-font-size)"
+      }
+    },
+    "$type": "number",
+    "$value": "{Scale 03}"
+  },
+  "Scale": {
+    "$extensions": {
+      "com.figma.hiddenFromPublishing": false,
+      "com.figma.codeSyntax": {
+        "Web": "var(--sds-responsive-scale)"
+      }
+    },
+    "$type": "number",
+    "$value": 1
+  }
+}

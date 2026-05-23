@@ -1,0 +1,337 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --meddleSlate100: #f3f3f3;
+  --meddleSlate200: #e3e3e3;
+  --meddleSlate300: #cdcdcd;
+  --meddleSlate400: #b2b2b2;
+  --meddleSlate500: #949494;
+  --meddleSlate600: #767676;
+  --meddleSlate700: #5a5a5a;
+  --meddleSlate800: #434343;
+  --meddleSlate900: #303030;
+  --meddleSlate1000: #242424;
+  --meddleWhite100: rgba(255, 255, 255, 0.05);
+  --meddleWhite200: rgba(255, 255, 255, 0.1);
+  --meddleWhite300: rgba(255, 255, 255, 0.2);
+  --meddleWhite400: rgba(255, 255, 255, 0.4);
+  --meddleWhite500: rgba(255, 255, 255, 0.7);
+  --meddleWhite600: rgba(255, 255, 255, 0.8);
+  --meddleWhite700: rgba(255, 255, 255, 0.85);
+  --meddleWhite800: rgba(255, 255, 255, 0.9);
+  --meddleWhite900: rgba(255, 255, 255, 0.95);
+  --meddleWhite1000: #ffffff;
+  --meddleBrand50: #f0f7f8;
+  --meddleBrand100: #d9eaed;
+  --meddleBrand200: #b3d5db;
+  --meddleBrand300: #85bcc6;
+  --meddleBrand400: #85bcc6;
+  --meddleBrand500: #007388;
+  --meddleBrand600: #005e70;
+  --meddleBrand700: #004b58;
+  --meddleBrand800: #003741;
+  --meddleBrand900: #001b1f;
+  --meddleBrand950: #001518;
+  --meddleRed100: #fee9e7;
+  --meddleRed200: #fdd3d0;
+  --meddleRed300: #fcb3ad;
+  --meddleRed400: #f4776a;
+  --meddleRed500: #ec221f;
+  --meddleRed600: #c00f0c;
+  --meddleRed700: #900b09;
+  --meddleRed800: #690807;
+  --meddleRed900: #4d0b0a;
+  --meddleRed1000: #300603;
+  --meddleYellow100: #fffbeb;
+  --meddleYellow200: #fff1c2;
+  --meddleYellow300: #ffe8a3;
+  --meddleYellow400: #e8b931;
+  --meddleYellow500: #e5a000;
+  --meddleYellow600: #bf6a02;
+  --meddleYellow700: #975102;
+  --meddleYellow800: #682d03;
+  --meddleYellow900: #522504;
+  --meddleYellow1000: #401b01;
+  --meddleGreen100: #ebffee;
+  --meddleGreen200: #cff7d3;
+  --meddleGreen300: #aff4c6;
+  --meddleGreen400: #85e0a3;
+  --meddleGreen500: #14ae5c;
+  --meddleGreen600: #009951;
+  --meddleGreen700: #008043;
+  --meddleGreen800: #02542d;
+  --meddleGreen900: #024023;
+  --meddleGreen1000: #062d1b;
+  --meddleBlack100: rgba(12, 12, 13, 0.05);
+  --meddleBlack200: rgba(12, 12, 13, 0.1);
+  --meddleBlack300: rgba(12, 12, 13, 0.2);
+  --meddleBlack400: rgba(12, 12, 13, 0.4);
+  --meddleBlack500: rgba(12, 12, 13, 0.7);
+  --meddleBlack600: rgba(12, 12, 13, 0.8);
+  --meddleBlack700: rgba(12, 12, 13, 0.85);
+  --meddleBlack800: rgba(12, 12, 13, 0.9);
+  --meddleBlack900: rgba(12, 12, 13, 0.95);
+  --meddleBlack1000: #0c0c0d;
+  --meddlePink100: #fcf1fd;
+  --meddlePink200: #fae1fa;
+  --meddlePink300: #f5c0ef;
+  --meddlePink400: #f19edc;
+  --meddlePink500: #ea3fb8;
+  --meddlePink600: #d732a8;
+  --meddlePink700: #ba2a92;
+  --meddlePink800: #8a226f;
+  --meddlePink900: #57184a;
+  --meddlePink1000: #3f1536;
+  --meddleGray100: #f5f5f5;
+  --meddleGray200: #e6e6e6;
+  --meddleGray300: #d9d9d9;
+  --meddleGray400: #b3b3b3;
+  --meddleGray500: #757575;
+  --meddleGray600: #444444;
+  --meddleGray700: #383838;
+  --meddleGray800: #2c2c2c;
+  --meddleGray900: #1e1e1e;
+  --meddleGray1000: #111111;
+  --meddleBlue100: #f1f6fd;
+  --meddleBlue200: #e1ebfa;
+  --meddleBlue300: #c0d4f5;
+  --meddleBlue400: #9ebef1;
+  --meddleBlue500: #3f81ea;
+  --meddleBlue600: #3271d7;
+  --meddleBlue700: #2a61ba;
+  --meddleBlue800: #224a8a;
+  --meddleBlue900: #183057;
+  --meddleBlue1000: #15253f;
+  --meddleTeal50: #f0f7f8;
+  --meddleTeal100: #d9eaed;
+  --meddleTeal200: #b3d5db;
+  --meddleTeal300: #85bcc6;
+  --meddleTeal400: #4d9dac;
+  --meddleTeal500: #007388;
+  --meddleTeal600: #005e70;
+  --meddleTeal700: #004b58;
+  --meddleTeal800: #003741;
+  --meddleTeal900: #001b1f;
+  --meddleTeal950: #001518;
+  --meddleFamilySans: Geist;
+  --meddleFamilySerif: Noto Serif;
+  --meddleFamilyMono: Geist Mono;
+  --meddleWeightLightItalic: Light Italic;
+  --meddleWeightRegularItalic: Italic;
+  --meddleWeightBoldItalic: Bold Italic;
+  --meddleWeightThinItalic: Thin Italic;
+  --meddleWeightExtralightItalic: Extra Light Italic;
+  --meddleWeightMediumItalic: Medium Italic;
+  --meddleWeightSemiboldItalic: Semi Bold Italic;
+  --meddleWeightExtraBoldItalic: Extra Bold Italic;
+  --meddleWeightBlackItalic: Black Italic;
+  --meddleWeightThin: 100;
+  --meddleWeightExtraLight: 200;
+  --meddleWeightLight: 300;
+  --meddleWeightRegular: 400;
+  --meddleWeightMedium: 500;
+  --meddleWeightSemibold: 550;
+  --meddleWeightBold: 600;
+  --meddleWeightExtraBold: 800;
+  --meddleWeightBlack: 900;
+  --meddleScale10: 72;
+  --meddleScale09: 64;
+  --meddleScale08: 48;
+  --meddleScale07: 40;
+  --meddleScale06: 32;
+  --meddleScale05: 24;
+  --meddleScale04: 20;
+  --meddleScale03: 16;
+  --meddleScale02: 14;
+  --meddleScale01: 12;
+  --meddleScale005: 11;
+  --meddleSpace0: 0;
+  --meddleSpace100: 4;
+  --meddleSpace150: 6;
+  --meddleSpace200: 8;
+  --meddleSpace300: 12;
+  --meddleSpace400: 16;
+  --meddleSpace600: 24;
+  --meddleSpace800: 32;
+  --meddleSpace1200: 48;
+  --meddleSpace1600: 64;
+  --meddleSpace2400: 96;
+  --meddleSpace4000: 160;
+  --meddleSpaceNegative100: -4;
+  --meddleSpaceNegative200: -8;
+  --meddleSpaceNegative300: -12;
+  --meddleSpaceNegative400: -16;
+  --meddleSpaceNegative600: -24;
+  --meddleSpace050: 2;
+  --meddleRadius100: 2;
+  --meddleRadius200: 4;
+  --meddleRadius300: 8;
+  --meddleRadius400: 12;
+  --meddleRadius500: 16;
+  --meddleRadiusFull: 9999;
+  --meddleDepth0: 0;
+  --meddleDepth100: 4;
+  --meddleDepth200: 8;
+  --meddleDepth400: 16;
+  --meddleDepth800: 32;
+  --meddleDepth1200: 48;
+  --meddleDepth025: 1;
+  --meddleDepthNegative025: -1;
+  --meddleDepthNegative100: -4;
+  --meddleDepthNegative200: -8;
+  --meddleDepthNegative400: -16;
+  --meddleDepthNegative800: -32;
+  --meddleDepthNegative1200: -48;
+  --meddleStrokeBorder: 1;
+  --meddleStrokeFocusRing: 2;
+  --meddleBlur100: 4;
+  --meddleIconSmall: 24;
+  --meddleIconMedium: 32;
+  --meddleIconLarge: 40;
+  --meddleIconDefaultDefault: #ffffff;
+  --meddleIconDefaultSecondary: rgba(255, 255, 255, 0.7);
+  --meddleIconDefaultTertiary: rgba(255, 255, 255, 0.4);
+  --meddleIconDefaultLink: #9ebef1;
+  --meddleIconBrandDefault: #f0f7f8;
+  --meddleIconBrandSecondary: #85bcc6;
+  --meddleIconBrandTertiary: #85bcc6;
+  --meddleIconBrandOnBrand: #001b1f;
+  --meddleIconBrandOnBrandSecondary: #f0f7f8;
+  --meddleIconBrandOnBrandTertiary: #f0f7f8;
+  --meddleIconPositiveDefault: #cff7d3;
+  --meddleIconPositiveSecondary: #85e0a3;
+  --meddleIconPositiveTertiary: #009951;
+  --meddleIconPositiveOnPositive: #ebffee;
+  --meddleIconPositiveOnPositiveSecondary: #ebffee;
+  --meddleIconPositiveOnPositiveTertiary: #ebffee;
+  --meddleIconWarningDefault: #fff1c2;
+  --meddleIconWarningSecondary: #e8b931;
+  --meddleIconWarningTertiary: #bf6a02;
+  --meddleIconWarningOnWarning: #401b01;
+  --meddleIconWarningOnWarningSecondary: #fffbeb;
+  --meddleIconWarningOnWarningTertiary: #fffbeb;
+  --meddleIconDangerDefault: #fdd3d0;
+  --meddleIconDangerSecondary: #f4776a;
+  --meddleIconDangerTertiary: #ec221f;
+  --meddleIconDangerOnDanger: #fee9e7;
+  --meddleIconDangerOnDangerSecondary: #fee9e7;
+  --meddleIconDangerOnDangerTertiary: #fee9e7;
+  --meddleIconDisabledDefault: #757575;
+  --meddleIconDisabledOnDisabled: #b3b3b3;
+  --meddleIconNeutralDefault: #e3e3e3;
+  --meddleIconNeutralSecondary: #cdcdcd;
+  --meddleIconNeutralTertiary: #b2b2b2;
+  --meddleIconNeutralOnNeutral: #242424;
+  --meddleIconNeutralOnNeutralSecondary: #f3f3f3;
+  --meddleIconNeutralOnNeutralTertiary: #f3f3f3;
+  --meddleIconUtilitiesIconOnMeasurement: #fae1fa;
+  --meddleIconUtilitiesIcon: #f19edc;
+  --meddleBackgroundDefaultDefault: #1e1e1e; /** Bg/Default/Default */
+  --meddleBackgroundDefaultSecondary: #2c2c2c; /** Bg/Default/Secondary */
+  --meddleBackgroundDefaultTertiary: #444444; /** Bg/Default/Tertiary */
+  --meddleBackgroundDefaultDefaultHover: #383838; /** Bg/Default/Default Hover */
+  --meddleBackgroundDefaultSecondaryHover: #1e1e1e; /** Bg/Default/Secondary Hover */
+  --meddleBackgroundDefaultTertiaryHover: #383838; /** Bg/Default/Tertiary Hover */
+  --meddleBackgroundBrandDefault: #b3d5db; /** Bg/Brand/Default */
+  --meddleBackgroundBrandSecondary: #005e70; /** Bg/Brand/Secondary */
+  --meddleBackgroundBrandHover: #85bcc6; /** Bg/Brand/Hover */
+  --meddleBackgroundBrandSecondaryHover: #007388; /** Bg/Brand/Secondary Hover */
+  --meddleBackgroundBrandTertiary: #005e70; /** Bg/Brand/Tertiary */
+  --meddleBackgroundBrandTertiaryHover: #003741; /** Bg/Brand/Tertiary Hover */
+  --meddleBackgroundPositiveDefault: #008043; /** Bg/Positive/Default */
+  --meddleBackgroundPositiveSecondary: #02542d; /** Bg/Positive/Secondary */
+  --meddleBackgroundPositiveHover: #02542d; /** Bg/Positive/Hover */
+  --meddleBackgroundPositiveSecondaryHover: #024023; /** Bg/Positive/Secondary Hover */
+  --meddleBackgroundPositiveTertiary: #024023; /** Bg/Positive/Tertiary */
+  --meddleBackgroundPositiveTertiaryHover: #062d1b; /** Bg/Positive/Tertiary Hover */
+  --meddleBackgroundWarningDefault: #e8b931; /** Bg/Warning/Default */
+  --meddleBackgroundWarningSecondary: #682d03; /** Bg/Warning/Secondary */
+  --meddleBackgroundWarningHover: #e5a000; /** Bg/Warning/Hover */
+  --meddleBackgroundWarningSecondaryHover: #522504; /** Bg/Warning/Secondary Hover */
+  --meddleBackgroundWarningTertiary: #522504; /** Bg/Warning/Tertiary */
+  --meddleBackgroundWarningTertiaryHover: #401b01; /** Bg/Warning/Tertiary Hover */
+  --meddleBackgroundDangerDefault: #c00f0c; /** Bg/Danger/Default */
+  --meddleBackgroundDangerSecondary: #690807; /** Bg/Danger/Secondary */
+  --meddleBackgroundDangerHover: #900b09; /** Bg/Danger/Hover */
+  --meddleBackgroundDangerSecondaryHover: #4d0b0a; /** Bg/Danger/Secondary Hover */
+  --meddleBackgroundDangerTertiary: #4d0b0a; /** Bg/Danger/Tertiary */
+  --meddleBackgroundDangerTertiaryHover: #300603; /** Bg/Danger/Tertiary Hover */
+  --meddleBackgroundDisabledDefault: #383838; /** Bg/Disabled/Default */
+  --meddleBackgroundUtilitiesScrim: rgba(0, 0, 0, 0.8); /** Bg/Utilities/Scrim */
+  --meddleBackgroundUtilitiesOverlay: rgba(0, 0, 0, 0.5); /** Bg/Utilities/Overlay */
+  --meddleBackgroundUtilitiesBlanket: rgba(0, 0, 0, 0.7); /** Bg/Utilities/Blanket */
+  --meddleBackgroundUtilitiesMeasurement: #8a226f; /** Bg/Utilities/Measurement */
+  --meddleBackgroundNeutralDefault: #b2b2b2; /** Bg/Neutral/Default */
+  --meddleBackgroundNeutralHover: #949494; /** Bg/Neutral/Hover */
+  --meddleBackgroundNeutralSecondary: #303030; /** Bg/Neutral/Secondary */
+  --meddleBackgroundNeutralSecondaryHover: #242424; /** Bg/Neutral/Secondary Hover */
+  --meddleBackgroundNeutralTertiary: #303030; /** Bg/Neutral/Tertiary */
+  --meddleBackgroundNeutralTertiaryHover: #242424; /** Bg/Neutral/Tertiary Hover */
+  --meddleTextDefaultDefault: #ffffff;
+  --meddleTextDefaultSecondary: rgba(255, 255, 255, 0.7);
+  --meddleTextDefaultTertiary: rgba(255, 255, 255, 0.4);
+  --meddleTextDefaultLink: #9ebef1;
+  --meddleTextBrandDefault: #f0f7f8;
+  --meddleTextBrandSecondary: #85bcc6;
+  --meddleTextBrandTertiary: #85bcc6;
+  --meddleTextBrandOnBrand: #001b1f;
+  --meddleTextBrandOnBrandSecondary: #f0f7f8;
+  --meddleTextBrandOnBrandTertiary: #f0f7f8;
+  --meddleTextPositiveDefault: #cff7d3;
+  --meddleTextPositiveSecondary: #85e0a3;
+  --meddleTextPositiveTertiary: #009951;
+  --meddleTextPositiveOnPositive: #ebffee;
+  --meddleTextPositiveOnPositiveSecondary: #ebffee;
+  --meddleTextPositiveOnPositiveTertiary: #ebffee;
+  --meddleTextWarningDefault: #fff1c2;
+  --meddleTextWarningSecondary: #e8b931;
+  --meddleTextWarningTertiary: #bf6a02;
+  --meddleTextWarningOnWarning: #401b01;
+  --meddleTextWarningOnWarningSecondary: #fffbeb;
+  --meddleTextWarningOnWarningTertiary: #fffbeb;
+  --meddleTextDangerDefault: #fdd3d0;
+  --meddleTextDangerSecondary: #f4776a;
+  --meddleTextDangerTertiary: #ec221f;
+  --meddleTextDangerOnDanger: #fee9e7;
+  --meddleTextDangerOnDangerSecondary: #fee9e7;
+  --meddleTextDangerOnDangerTertiary: #fee9e7;
+  --meddleTextDisabledDefault: #757575;
+  --meddleTextDisabledOnDisabled: #b3b3b3;
+  --meddleTextUtilitiesTextOnOverlay: #ffffff;
+  --meddleTextUtilitiesTextOnMeasurement: #fae1fa;
+  --meddleTextNeutralDefault: #e3e3e3;
+  --meddleTextNeutralSecondary: #cdcdcd;
+  --meddleTextNeutralTertiary: #b2b2b2;
+  --meddleTextNeutralOnNeutral: #242424;
+  --meddleTextNeutralOnNeutralSecondary: #f3f3f3;
+  --meddleTextNeutralOnNeutralTertiary: #f3f3f3;
+  --meddleBorderDefaultDefault: #444444;
+  --meddleBorderDefaultSecondary: #757575;
+  --meddleBorderDefaultTertiary: #b3b3b3;
+  --meddleBorderDefaultSubtle: rgba(179, 179, 179, 0.2);
+  --meddleBorderBrandDefault: #f0f7f8;
+  --meddleBorderBrandSecondary: #85bcc6;
+  --meddleBorderBrandTertiary: #85bcc6;
+  --meddleBorderBrandDefault2: rgba(240, 247, 248, 0.6);
+  --meddleBorderPositiveDefault: #cff7d3;
+  --meddleBorderPositiveSecondary: #85e0a3;
+  --meddleBorderPositiveTertiary: #009951;
+  --meddleBorderWarningDefault: #fff1c2;
+  --meddleBorderWarningSecondary: #e8b931;
+  --meddleBorderWarningTertiary: #bf6a02;
+  --meddleBorderDangerDefault: #fdd3d0;
+  --meddleBorderDangerSecondary: #f4776a;
+  --meddleBorderDangerTertiary: #ec221f;
+  --meddleBorderDisabledDefault: #444444;
+  --meddleBorderUtilitiesMeasurement: #d732a8;
+  --meddleBorderUtilitiesSwatch: rgba(255, 255, 255, 0.24);
+  --meddleBorderNeutralDefault: #f3f3f3;
+  --meddleBorderNeutralSecondary: #949494;
+  --meddleBorderNeutralTertiary: #767676;
+  --meddleBorderNeutralSubtle: rgba(243, 243, 243, 0.6);
+  --meddleTintDefault: rgba(255, 255, 255, 0.2);
+  --meddleTintSecondary: rgba(255, 255, 255, 0.7);
+  --meddleTintTertiary: rgba(255, 255, 255, 0.8);
+}

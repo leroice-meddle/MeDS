@@ -1,0 +1,564 @@
+{
+  "Title Page": {
+    "Font Family": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_FAMILY"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-title-page-font-family)"
+        }
+      },
+      "$type": "text",
+      "$value": "{Family Sans}"
+    },
+    "Font Weight": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_WEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-title-page-font-weight)"
+        }
+      },
+      "$type": "number",
+      "$value": "{Weight Bold}"
+    },
+    "Size Small": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-title-page-size-small)"
+        }
+      },
+      "$type": "number",
+      "$value": "{Scale 07}"
+    },
+    "Size Base": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-title-page-size-base)"
+        }
+      },
+      "$type": "number",
+      "$value": "{Scale 08}"
+    },
+    "Size Large": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-title-page-size-large)"
+        }
+      },
+      "$type": "number",
+      "$value": "{Scale 09}"
+    }
+  },
+  "Subtitle": {
+    "Font Family": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_FAMILY"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-subtitle-font-family)"
+        }
+      },
+      "$type": "text",
+      "$value": "{Family Sans}"
+    },
+    "Size Base": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-subtitle-size-base)"
+        }
+      },
+      "$type": "number",
+      "$value": "{Scale 06}"
+    },
+    "Font Weight": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_WEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-subtitle-font-weight)"
+        }
+      },
+      "$type": "number",
+      "$value": "{Weight Regular}"
+    },
+    "Size Large": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-subtitle-size-large)"
+        }
+      },
+      "$type": "number",
+      "$value": "{Scale 07}"
+    },
+    "Size Small": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-subtitle-size-small)"
+        }
+      },
+      "$type": "number",
+      "$value": "{Scale 05}"
+    }
+  },
+  "Body": {
+    "Font Family": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_FAMILY"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-body-font-family)"
+        }
+      },
+      "$type": "text",
+      "$value": "{Family Sans}"
+    },
+    "Font Style Italic": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-body-font-style-italic)"
+        }
+      },
+      "$type": "text",
+      "$value": "{Weight Regular Italic}"
+    },
+    "Size Medium": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-body-size-medium)"
+        }
+      },
+      "$type": "number",
+      "$value": "{Scale 03}"
+    },
+    "Font Weight Regular": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_WEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-body-font-weight-regular)"
+        }
+      },
+      "$type": "number",
+      "$value": "{Weight Regular}"
+    },
+    "Size Large": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-body-size-large)"
+        }
+      },
+      "$type": "number",
+      "$value": "{Scale 04}"
+    },
+    "Size Small": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-body-size-small)"
+        }
+      },
+      "$type": "number",
+      "$value": "{Scale 02}"
+    },
+    "Font Weight Strong": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_WEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-body-font-weight-strong)"
+        }
+      },
+      "$type": "number",
+      "$value": "{Weight Medium}"
+    }
+  },
+  "Code": {
+    "Font Family": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_FAMILY"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-code-font-family)"
+        }
+      },
+      "$type": "text",
+      "$value": "{Family Mono}"
+    },
+    "Size Base": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-code-size-base)"
+        }
+      },
+      "$type": "number",
+      "$value": "{Body.Size Medium}"
+    },
+    "Font Weight": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_WEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-code-font-weight)"
+        }
+      },
+      "$type": "number",
+      "$value": "{Body.Font Weight Regular}"
+    },
+    "Size Large": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-code-size-large)"
+        }
+      },
+      "$type": "number",
+      "$value": "{Body.Size Large}"
+    },
+    "Size Small": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-code-size-small)"
+        }
+      },
+      "$type": "number",
+      "$value": "{Body.Size Small}"
+    }
+  },
+  "Heading": {
+    "Font Family": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_FAMILY"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-heading-font-family)"
+        }
+      },
+      "$type": "text",
+      "$value": "{Family Sans}"
+    },
+    "Size Base": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-heading-size-base)"
+        }
+      },
+      "$type": "number",
+      "$value": "{Scale 05}"
+    },
+    "Font Weight": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_WEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-heading-font-weight)"
+        }
+      },
+      "$type": "number",
+      "$value": "{Weight Semibold}"
+    },
+    "Size Large": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-heading-size-large)"
+        }
+      },
+      "$type": "number",
+      "$value": "{Scale 06}"
+    },
+    "Size Small": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-heading-size-small)"
+        }
+      },
+      "$type": "number",
+      "$value": "{Scale 04}"
+    }
+  },
+  "Title Hero": {
+    "Font Family": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_FAMILY"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-title-hero-font-family)"
+        }
+      },
+      "$type": "text",
+      "$value": "{Family Sans}"
+    },
+    "Size": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-title-hero-size)"
+        }
+      },
+      "$type": "number",
+      "$value": "{Scale 10}"
+    },
+    "Font Weight": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_WEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-title-hero-font-weight)"
+        }
+      },
+      "$type": "number",
+      "$value": "{Weight Bold}"
+    }
+  },
+  "Subheading": {
+    "Font Family": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_FAMILY"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-subheading-font-family)"
+        }
+      },
+      "$type": "text",
+      "$value": "{Family Sans}"
+    },
+    "Size Small": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-subheading-size-small)"
+        }
+      },
+      "$type": "number",
+      "$value": "{Scale 03}"
+    },
+    "Size Medium": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-subheading-size-medium)"
+        }
+      },
+      "$type": "number",
+      "$value": "{Scale 04}"
+    },
+    "Size Large": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-subheading-size-large)"
+        }
+      },
+      "$type": "number",
+      "$value": "{Scale 05}"
+    },
+    "Font Weight": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_WEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-subheading-font-weight)"
+        }
+      },
+      "$type": "number",
+      "$value": "{Weight Medium}"
+    }
+  },
+  "Fine": {
+    "Font Family": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_FAMILY"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-body-font-family)"
+        }
+      },
+      "$type": "text",
+      "$value": "{Family Sans}"
+    },
+    "Font Style Italic": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-body-font-style-italic)"
+        }
+      },
+      "$type": "text",
+      "$value": "{Weight Regular Italic}"
+    },
+    "Size Small": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-body-size-small)"
+        }
+      },
+      "$type": "number",
+      "$value": 11
+    },
+    "Size Medium": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-body-size-medium)"
+        }
+      },
+      "$type": "number",
+      "$value": 12
+    },
+    "Size Large": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-body-size-large)"
+        }
+      },
+      "$type": "number",
+      "$value": 13
+    },
+    "Font Weight Regular": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_WEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-body-font-weight-regular)"
+        }
+      },
+      "$type": "number",
+      "$value": "{Weight Regular}"
+    },
+    "Font Weight Strong": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_WEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--sds-typography-body-font-weight-strong)"
+        }
+      },
+      "$type": "number",
+      "$value": "{Weight Semibold}"
+    }
+  }
+}

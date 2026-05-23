@@ -1,0 +1,80 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --meddleDropShadow100: 0 1px 4px 0 #0c0c0d0d;
+  --meddleDropShadow200: 0 1px 4px 0 #0c0c0d1a, 0 1px 4px 0 #0c0c0d0d;
+  --meddleDropShadow300: 0 4px 4px -1px #0c0c0d1a, 0 4px 4px -1px #0c0c0d0d;
+  --meddleDropShadow400: 0 16px 32px -4px #0c0c0d1a, 0 4px 4px -4px #0c0c0d0d;
+  --meddleDropShadow500: 0 16px 16px -8px #0c0c0d1a, 0 4px 4px -4px #0c0c0d0d;
+  --meddleDropShadow600: 0 16px 32px -8px #0c0c0d66;
+  --meddleInnerShadow100: inset 0 1px 4px 0 #0c0c0d0d;
+  --meddleInnerShadow200: inset 0 1px 4px 0 #0c0c0d0d;
+  --meddleInnerShadow300: inset 0 4px 4px -1px #0c0c0d0d;
+  --meddleInnerShadow400: inset 0 16px 32px -4px #0c0c0d1a;
+  --meddleInnerShadow500: inset 0 16px 16px -8px #0c0c0d1a;
+  --meddleInnerShadow600: inset 0 16px 32px -8px #0c0c0d66;
+  --meddleLineHeights0: 1.2;
+  --meddleLineHeights1: 1.2;
+  --meddleLineHeights2: 1.2;
+  --meddleLineHeights3: 1.2;
+  --meddleLineHeights4: 1.2;
+  --meddleLineHeights5: 1.4;
+  --meddleLineHeights6: 1.4;
+  --meddleLineHeights7: 1.4;
+  --meddleLineHeights8: 1.4;
+  --meddleLineHeights9: 1.4;
+  --meddleLineHeights10: 1.4;
+  --meddleLineHeights11: 1.4;
+  --meddleLineHeights12: 1.4;
+  --meddleLineHeights13: 1.4;
+  --meddleLineHeights14: 1.3;
+  --meddleLineHeights15: 1;
+  --meddleLineHeights16: 1;
+  --meddleLineHeights17: 1.4;
+  --meddleLineHeights18: 1.4;
+  --meddleFontWeightsGeist0: 400;
+  --meddleFontWeightsGeist1: 500;
+  --meddleFontWeightsGeistMono2: 400;
+  --meddleFontWeightsGeistMono3: 600;
+  --meddleFontSize0: 11px;
+  --meddleFontSize1: 12px;
+  --meddleFontSize2: 13px;
+  --meddleFontSize3: 14px;
+  --meddleFontSize4: 16px;
+  --meddleFontSize5: 20px;
+  --meddleFontSize6: 24px;
+  --meddleFontSize7: 32px;
+  --meddleFontSize8: 48px;
+  --meddleFontSize9: 72px;
+  --meddleLetterSpacing0: -0.04em;
+  --meddleLetterSpacing1: -0.024em;
+  --meddleLetterSpacing2: -0.02em;
+  --meddleLetterSpacing3: -0.01em;
+  --meddleLetterSpacing4: 0em;
+  --meddleParagraphSpacing0: 0;
+  --Title Hero: [object Object];
+  --Title Page: [object Object];
+  --Subtitle: [object Object];
+  --Heading: [object Object];
+  --Subheading: [object Object];
+  --Body Base: [object Object];
+  --Body Strong: [object Object];
+  --Body Emphasis: [object Object];
+  --Body Link: [object Object];
+  --Body Small: [object Object];
+  --Body Small Strong: [object Object];
+  --Footnote: [object Object];
+  --Caption 1: [object Object];
+  --Caption 2: [object Object];
+  --Body Code: [object Object];
+  --Body Base: [object Object]; /** Used for any text element where you need 100% line height. For example, an input field, a label. */
+  --Body Small Strong: [object Object];
+  --meddleUtilitiesComponentNotesRegular: 400 16px/1.4 'Geist Mono';
+  --meddleUtilitiesComponentNotesBold: 600 16px/1.4 'Geist Mono';
+  --meddleTextCaseNone: none;
+  --meddleTextDecorationNone: none;
+  --meddleTextDecorationUnderline: underline;
+  --meddleParagraphIndent0: 0px;
+}
