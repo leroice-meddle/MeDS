@@ -1,3 +1,4 @@
+import React, { useState } from 'react'
 import * as LucideIcons from 'lucide-react'
 import Icon from './Icon'
 
@@ -30,38 +31,48 @@ export const Sizes = {
   ),
 }
 
+const toKebab = str => str.replace(/([A-Z])/g, m => '-' + m.toLowerCase()).replace(/^-/, '')
+
+const iconList = Object.entries(LucideIcons).filter(([key, val]) => {
+  return (
+    typeof val === 'function' &&
+    key !== 'createLucideIcon' &&
+    key !== 'default' &&
+    /^[A-Z]/.test(key)
+  )
+}).map(([key, Comp]) => ({ key, name: toKebab(key), Comp }))
+
+function AllIconsGrid() {
+  const [query, setQuery] = useState('')
+  const filtered = query ? iconList.filter(i => i.name.includes(query.toLowerCase())) : iconList
+  return (
+    <div style={{ padding: 32, fontFamily: 'Geist, sans-serif' }}>
+      <input
+        placeholder='Search icons...'
+        value={query}
+        onChange={e => setQuery(e.target.value)}
+        style={{ width: 240, padding: '8px 12px', borderRadius: 8, border: '1px solid #e6e6e6', fontFamily: 'Geist, sans-serif', fontSize: 14, marginBottom: 24, outline: 'none' }}
+      />
+      <div style={{ fontSize: 12, color: '#757575', marginBottom: 16 }}>{filtered.length} icons</div>
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 4 }}>
+        {filtered.map(({ key, name, Comp }) => (
+          <div
+            key={key}
+            title={name}
+            style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 6, padding: '12px 8px', width: 80, borderRadius: 8, cursor: 'default', transition: 'background 0.1s' }}
+            onMouseEnter={e => e.currentTarget.style.backgroundColor = '#f0f7f8'}
+            onMouseLeave={e => e.currentTarget.style.backgroundColor = 'transparent'}
+          >
+            <Comp size={16} color='#1e1e1e' strokeWidth={1.5} />
+            <span style={{ fontFamily: 'Geist, sans-serif', fontSize: 9, color: '#757575', textAlign: 'center', wordBreak: 'break-all', lineHeight: 1.3 }}>{name}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  )
+}
+
 export const AllIcons = {
   name: 'All Icons',
-  render: () => {
-    const icons = Object.keys(LucideIcons).filter(k => {
-      const val = LucideIcons[k]
-      return typeof val === 'function' && k !== 'createLucideIcon' && k !== 'default'
-    })
-    const toKebab = str => str.replace(/([A-Z])/g, m => '-' + m.toLowerCase()).replace(/^-/, '')
-    return (
-      <div style={{ padding: 32 }}>
-        <p style={{ fontFamily: 'Geist, sans-serif', fontSize: 13, color: '#757575', marginBottom: 24 }}>
-          {icons.length} icons — use the name in kebab-case, e.g. <code>arrow-right</code>
-        </p>
-        <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
-          {icons.map(name => {
-            const Comp = LucideIcons[name]
-            const kebab = toKebab(name)
-            return (
-              <div
-                key={name}
-                title={kebab}
-                style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 6, padding: '12px 8px', width: 72, borderRadius: 8, cursor: 'default' }}
-                onMouseEnter={e => e.currentTarget.style.backgroundColor = '#f0f7f8'}
-                onMouseLeave={e => e.currentTarget.style.backgroundColor = 'transparent'}
-              >
-                <Comp size={16} color='#1e1e1e' strokeWidth={1.5} />
-                <span style={{ fontFamily: 'Geist, sans-serif', fontSize: 9, color: '#757575', textAlign: 'center', wordBreak: 'break-all', lineHeight: 1.3 }}>{kebab}</span>
-              </div>
-            )
-          })}
-        </div>
-      </div>
-    )
-  },
+  render: () => <AllIconsGrid />,
 }

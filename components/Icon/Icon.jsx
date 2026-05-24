@@ -8,7 +8,7 @@ function Icon({ name, size = 16, color = 'currentColor', strokeWidth = 1.5, ...p
 
   const LucideIcon = LucideIcons[PascalName]
 
-  if (!LucideIcon) {
+  if (!LucideIcon || typeof LucideIcon !== 'function') {
     return (
       <span style={{ display: 'inline-flex', width: size, height: size, alignItems: 'center', justifyContent: 'center', fontFamily: 'Geist, sans-serif', fontSize: 9, color: '#ec221f', border: '1px dashed #ec221f', borderRadius: 4 }}>
         ?
