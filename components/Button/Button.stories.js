@@ -25,7 +25,7 @@ export const AllVariants = {
     <div style={{ display: 'flex', flexDirection: 'column', gap: 32, padding: 24 }}>
       {['Medium', 'Small'].map(size => (
         <div key={size}>
-          <p style={{ fontFamily: 'Geist, sans-serif', fontSize: 12, color: '#757575', marginBottom: 12, margin: '0 0 12px 0' }}>
+          <p style={{ fontFamily: 'Geist, sans-serif', fontSize: 12, color: '#757575', margin: '0 0 12px 0' }}>
             {size}
           </p>
           <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', alignItems: 'center' }}>
