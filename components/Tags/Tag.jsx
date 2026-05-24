@@ -31,43 +31,18 @@ function XIcon({ color = '#1e1e1e' }) {
   )
 }
 
-function Tag({
-  label = 'Tag',
-  scheme = 'Brand',
-  variant = 'Primary',
-  removable = true,
-  onRemove,
-  style: styleProp,
-}) {
+function Tag({ label = 'Tag', scheme = 'Brand', variant = 'Primary', removable = true, onRemove, style: styleProp }) {
   const [hovered, setHovered] = useState(false)
   const t = schemes[scheme]?.[variant] || schemes.Brand.Primary
   const bg = hovered ? t.bgHover : t.bg
-
   return (
     <div
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      style={{
-        display: 'inline-flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        gap: 8,
-        padding: 8,
-        borderRadius: 8,
-        background: bg,
-        transition: 'background 0.1s',
-        cursor: 'default',
-        ...styleProp,
-      }}
+      style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: 8, padding: 8, borderRadius: 8, background: bg, transition: 'background 0.1s', cursor: 'default', ...styleProp }}
     >
-      <p style={{ fontFamily: 'Geist, sans-serif', fontSize: 16, fontWeight: 400, lineHeight: 1, color: t.text, margin: 0, whiteSpace: 'nowrap' }}>
-        {label}
-      </p>
-      {removable && (
-        <div onClick={onRemove} style={{ cursor: 'pointer', display: 'flex', flexShrink: 0 }}>
-          <XIcon color={t.xColor} />
-        </div>
-      )}
+      <p style={{ fontFamily: 'Geist, sans-serif', fontSize: 16, fontWeight: 400, lineHeight: 1, color: t.text, margin: 0, whiteSpace: 'nowrap' }}>{label}</p>
+      {removable && <div onClick={onRemove} style={{ cursor: 'pointer', display: 'flex', flexShrink: 0 }}><XIcon color={t.xColor} /></div>}
     </div>
   )
 }
@@ -80,64 +55,31 @@ function CheckIcon() {
   )
 }
 
-export function TagToggle({
-  label = 'Label',
-  active = true,
-  showIcon = true,
-  onClick,
-  style: styleProp,
-}) {
+export function TagToggle({ label = 'Label', active = true, showIcon = true, onClick, style: styleProp }) {
   return (
     <div
       onClick={onClick}
-      style={{
-        display: 'inline-flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        gap: active ? 8 : 0,
-        padding: 8,
-        borderRadius: 8,
-        background: active ? '#005e70' : '#f0f7f8',
-        cursor: 'pointer',
-        transition: 'background 0.1s',
-        ...styleProp,
-      }}
+      style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: active ? 8 : 0, padding: 8, borderRadius: 8, background: active ? '#005e70' : '#f0f7f8', cursor: 'pointer', transition: 'background 0.1s', ...styleProp }}
     >
       {active && showIcon && <CheckIcon />}
-      <p style={{ fontFamily: 'Geist, sans-serif', fontSize: 16, fontWeight: 400, lineHeight: 1, color: active ? '#f0f7f8' : '#007388', margin: 0, whiteSpace: 'nowrap' }}>
-        {label}
-      </p>
+      <p style={{ fontFamily: 'Geist, sans-serif', fontSize: 16, fontWeight: 400, lineHeight: 1, color: active ? '#f0f7f8' : '#007388', margin: 0, whiteSpace: 'nowrap' }}>{label}</p>
     </div>
   )
 }
 
-export function TagToggleGroup({
-  items = [],
-  activeIndices = [0],
-  multiSelect = true,
-  onToggle,
-  style: styleProp,
-}) {
+export function TagToggleGroup({ items = [], activeIndices = [0], multiSelect = true, onToggle, style: styleProp }) {
   const [active, setActive] = useState(new Set(activeIndices))
   const labels = items.length ? items : ['Label', 'Label', 'Label', 'Label', 'Label', 'Label', 'Label']
-
   const handleToggle = (i) => {
     const next = new Set(active)
-    if (next.has(i)) {
-      if (multiSelect) next.delete(i)
-    } else {
-      if (!multiSelect) next.clear()
-      next.add(i)
-    }
+    if (next.has(i)) { if (multiSelect) next.delete(i) }
+    else { if (!multiSelect) next.clear(); next.add(i) }
     setActive(next)
     onToggle?.(Array.from(next))
   }
-
   return (
     <div style={{ display: 'flex', gap: 8, alignItems: 'center', flexWrap: 'wrap', ...styleProp }}>
-      {labels.map((label, i) => (
-        <TagToggle key={i} label={label} active={active.has(i)} onClick={() => handleToggle(i)} />
-      ))}
+      {labels.map((label, i) => <TagToggle key={i} label={label} active={active.has(i)} onClick={() => handleToggle(i)} />)}
     </div>
   )
 }

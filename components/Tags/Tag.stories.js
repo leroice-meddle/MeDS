@@ -1,5 +1,5 @@
 import React from 'react'
-import Tag, { TagToggle, TagToggleGroup } from './Tag.stories'
+import Tag, { TagToggle, TagToggleGroup } from './Tag'
 
 export default {
   title: 'Meddle DS/Tag',
@@ -12,11 +12,11 @@ export default {
   },
 }
 
-export const Default  = { args: { label: 'Tag', scheme: 'Brand',   variant: 'Primary',   removable: true } }
-export const Neutral  = { args: { label: 'Tag', scheme: 'Neutral', variant: 'Primary',   removable: true } }
-export const Danger   = { args: { label: 'Tag', scheme: 'Danger',  variant: 'Primary',   removable: true } }
-export const Positive = { args: { label: 'Tag', scheme: 'Positive',variant: 'Primary',   removable: true } }
-export const Warning  = { args: { label: 'Tag', scheme: 'Warning', variant: 'Primary',   removable: true } }
+export const Default  = { args: { label: 'Tag', scheme: 'Brand',    variant: 'Primary',   removable: true } }
+export const Neutral  = { args: { label: 'Tag', scheme: 'Neutral',  variant: 'Primary',   removable: true } }
+export const Danger   = { args: { label: 'Tag', scheme: 'Danger',   variant: 'Primary',   removable: true } }
+export const Positive = { args: { label: 'Tag', scheme: 'Positive', variant: 'Primary',   removable: true } }
+export const Warning  = { args: { label: 'Tag', scheme: 'Warning',  variant: 'Primary',   removable: true } }
 
 export const AllVariants = {
   name: 'All Schemes & Variants',
