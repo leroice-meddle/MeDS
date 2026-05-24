@@ -4,7 +4,7 @@ import SelectInline from './SelectInline'
 const options = ['Option 1', 'Option 2', 'Option 3', 'Option 4', 'Option 5']
 
 export default {
-  title: 'Meddle DS/Select Inline',
+  title: 'Components/Select Inline',
   component: SelectInline,
   argTypes: {
     label: { control: 'text' },

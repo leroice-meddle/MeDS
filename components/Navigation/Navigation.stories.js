@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { NavigationButton, NavigationButtonList, NavigationPill, NavigationPillList } from './Navigation'
 
 export default {
-  title: 'Meddle DS/Navigation',
+  title: 'Components/Navigation',
   component: NavigationButtonList,
 }
 

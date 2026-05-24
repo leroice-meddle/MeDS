@@ -1,7 +1,7 @@
 import SpacingTokens from './SpacingTokens'
 
 export default {
-  title: 'Meddle DS/Tokens/Spacing',
+  title: 'Meddle DS/SpacingTokens',
   component: SpacingTokens,
 }
 

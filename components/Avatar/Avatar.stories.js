@@ -2,7 +2,7 @@ import React from 'react'
 import Avatar from './Avatar'
 
 export default {
-  title: 'Meddle DS/Avatar',
+  title: 'Components/Avatar',
   component: Avatar,
   argTypes: {
     type: { control: 'select', options: ['image', 'initials', 'default'] },

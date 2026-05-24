@@ -2,7 +2,7 @@ import React from 'react'
 import Menu, { MenuItem, MenuHeader, MenuSeparator, MenuSection, MenuShortcut } from './Menu'
 
 export default {
-  title: 'Meddle DS/Menu',
+  title: 'Components/Menu',
   component: Menu,
 }
 

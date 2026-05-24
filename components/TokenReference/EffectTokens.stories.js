@@ -1,7 +1,7 @@
 import EffectTokens from './EffectTokens'
 
 export default {
-  title: 'Meddle DS/Tokens/Effects',
+  title: 'Meddle DS/EffectTokens',
   component: EffectTokens,
 }
 

@@ -1,7 +1,7 @@
 import ColourTokens from './ColourTokens'
 
 export default {
-  title: 'Meddle DS/Tokens/Colours',
+  title: 'Meddle DS/ColourTokens',
   component: ColourTokens,
 }
 

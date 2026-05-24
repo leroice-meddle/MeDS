@@ -5,7 +5,7 @@ import CalendarMonthField from './CalendarMonthField'
 import CalendarYearField from './CalendarYearField'
 
 export default {
-  title: 'Meddle DS/Calendar',
+  title: 'Components/Calendar',
   component: Calendar,
 }
 

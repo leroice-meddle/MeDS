@@ -2,7 +2,7 @@ import React from 'react'
 import List, { Row, Switch, EditButton, Grabber, Trailing } from './List'
 
 export default {
-  title: 'Meddle DS/List',
+  title: 'Components/List',
   component: List,
 }
 

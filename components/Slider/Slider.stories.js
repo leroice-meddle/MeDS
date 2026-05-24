@@ -2,7 +2,7 @@ import React from 'react'
 import SliderField from './Slider'
 
 export default {
-  title: 'Meddle DS/Slider',
+  title: 'Components/Slider',
   component: SliderField,
   argTypes: {
     state:          { control: 'select', options: ['Default', 'Disabled'] },

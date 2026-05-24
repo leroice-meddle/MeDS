@@ -2,7 +2,7 @@ import React from 'react'
 import Tag, { TagToggle, TagToggleGroup } from './Tag'
 
 export default {
-  title: 'Meddle DS/Tag',
+  title: 'Components/Tag',
   component: Tag,
   argTypes: {
     scheme:    { control: 'select', options: ['Brand', 'Neutral', 'Danger', 'Positive', 'Warning'] },

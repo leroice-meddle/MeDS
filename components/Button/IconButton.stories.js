@@ -3,7 +3,7 @@ import React from 'react'
 import IconButton from './IconButton'
 
 export default {
-  title: 'Meddle DS/Icon Button',
+  title: 'Components/Icon Button',
   component: IconButton,
   argTypes: {
     variant:  { control: 'select', options: ['Primary', 'Neutral', 'Subtle', 'Ghost'] },

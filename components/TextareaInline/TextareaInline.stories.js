@@ -2,7 +2,7 @@ import React from 'react'
 import TextareaInline from './TextareaInline'
 
 export default {
-  title: 'Meddle DS/Textarea Inline',
+  title: 'Components/Textarea Inline',
   component: TextareaInline,
   argTypes: {
     label: { control: 'text' },

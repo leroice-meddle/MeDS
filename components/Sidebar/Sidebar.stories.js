@@ -2,7 +2,7 @@ import React from 'react'
 import Sidebar, { NavItem } from './Sidebar'
 
 export default {
-  title: 'Meddle DS/Sidebar',
+  title: 'Components/Sidebar',
   component: Sidebar,
 }
 

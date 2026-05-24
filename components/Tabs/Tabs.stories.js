@@ -2,7 +2,7 @@ import React from 'react'
 import Tabs, { Tab } from './Tabs'
 
 export default {
-  title: 'Meddle DS/Tabs',
+  title: 'Components/Tabs',
   component: Tabs,
 }
 

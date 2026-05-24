@@ -2,7 +2,7 @@ import React from 'react'
 import Notification from './Notification'
 
 export default {
-  title: 'Meddle DS/Notification',
+  title: 'Components/Notification',
   component: Notification,
   argTypes: {
     variant:     { control: 'select', options: ['Message', 'Alert'] },

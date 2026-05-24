@@ -2,7 +2,7 @@ import React from 'react'
 import Button from './Button'
 
 export default {
-  title: 'Meddle DS/Button',
+  title: 'Components/Button',
   component: Button,
   argTypes: {
     variant:  { control: 'select', options: ['Primary', 'Neutral', 'Subtle', 'Ghost'] },

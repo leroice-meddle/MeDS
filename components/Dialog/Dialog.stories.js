@@ -2,7 +2,7 @@ import React from 'react'
 import Dialog from './Dialog'
 
 export default {
-  title: 'Meddle DS/Dialog',
+  title: 'Components/Dialog',
   component: Dialog,
   argTypes: {
     heading: { control: 'text' },

@@ -2,7 +2,7 @@ import React from 'react'
 import CheckboxField, { CheckboxGroup } from './Checkbox'
 
 export default {
-  title: 'Meddle DS/Checkbox',
+  title: 'Components/Checkbox',
   component: CheckboxField,
   argTypes: {
     state:          { control: 'select', options: ['Default', 'Disabled'] },

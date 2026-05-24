@@ -3,7 +3,7 @@ import React from 'react'
 import ButtonDanger from './ButtonDanger'
 
 export default {
-  title: 'Meddle DS/Button Danger',
+  title: 'Components/Button Danger',
   component: ButtonDanger,
   argTypes: {
     variant:  { control: 'select', options: ['Primary', 'Subtle'] },

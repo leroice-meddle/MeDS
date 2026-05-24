@@ -3,7 +3,7 @@ import React from 'react'
 import ButtonGroup from './ButtonGroup'
 
 export default {
-  title: 'Meddle DS/Button Group',
+  title: 'Components/Button Group',
   component: ButtonGroup,
   argTypes: {
     align:          { control: 'select', options: ['Justify', 'Start', 'Center', 'End', 'Stack'] },

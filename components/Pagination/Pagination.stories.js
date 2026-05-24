@@ -2,7 +2,7 @@ import React from 'react'
 import Pagination, { PaginationPage, PaginationPrevious, PaginationNext, PaginationList, PaginationGap } from './Pagination'
 
 export default {
-  title: 'Meddle DS/Pagination',
+  title: 'Components/Pagination',
   component: Pagination,
   argTypes: {
     totalPages:  { control: 'number' },

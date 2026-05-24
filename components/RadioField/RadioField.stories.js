@@ -2,7 +2,7 @@ import React from 'react'
 import RadioField, { RadioGroup } from './RadioField'
 
 export default {
-  title: 'Meddle DS/Radio Field',
+  title: 'Components/Radio Field',
   component: RadioField,
   argTypes: {
     state:          { control: 'select', options: ['Default', 'Disabled'] },

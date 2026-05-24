@@ -2,7 +2,7 @@ import React from 'react'
 import Segments, { Segment } from './Segments'
 
 export default {
-  title: 'Meddle DS/Segments',
+  title: 'Components/Segments',
   component: Segments,
 }
 

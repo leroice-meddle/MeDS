@@ -2,7 +2,7 @@ import React from 'react'
 import Tooltip, { TooltipBubble } from './Tooltip'
 
 export default {
-  title: 'Meddle DS/Tooltip',
+  title: 'Components/Tooltip',
   component: Tooltip,
   argTypes: {
     placement: { control: 'select', options: ['Top', 'Bottom', 'Left', 'Right'] },

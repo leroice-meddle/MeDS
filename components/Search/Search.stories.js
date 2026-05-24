@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Search from './Search'
 
 export default {
-  title: 'Meddle DS/Search',
+  title: 'Components/Search',
   component: Search,
   argTypes: {
     state: { control: 'select', options: ['Default', 'Disabled'] },

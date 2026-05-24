@@ -3,7 +3,7 @@ import * as LucideIcons from 'lucide-react'
 import Icon from './Icon'
 
 export default {
-  title: 'Meddle DS/Icon',
+  title: 'Meddle DS/Iconography',
   component: Icon,
   argTypes: {
     name: { control: 'text' },

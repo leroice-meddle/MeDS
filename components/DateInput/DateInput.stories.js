@@ -2,7 +2,7 @@ import React from 'react'
 import DateInput from './DateInput'
 
 export default {
-  title: 'Meddle DS/Date Input',
+  title: 'Components/Date Input',
   component: DateInput,
   argTypes: {
     state:     { control: 'select', options: ['Default', 'Error', 'Disabled'] },
