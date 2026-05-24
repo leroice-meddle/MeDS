@@ -12,6 +12,7 @@
     "chromatic": "npx chromatic --project-token=chpt_850e2112742c2f9"
   },
   "dependencies": {
+    "lucide-react": "^1.16.0",
     "next": "16.2.6",
     "react": "19.2.4",
     "react-dom": "19.2.4"
