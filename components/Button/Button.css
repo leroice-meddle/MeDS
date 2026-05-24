@@ -1,0 +1,47 @@
+.meds-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid transparent;
+  border-radius: 9999px;
+  cursor: pointer;
+  font-family: var(--meddleBodyFontFamily, 'Geist', sans-serif);
+  font-weight: 400;
+  line-height: 1;
+  white-space: nowrap;
+  transition: background-color 120ms ease, color 120ms ease, border-color 120ms ease;
+}
+.meds-button:focus-visible { outline: 2px solid var(--meddleBrand500); outline-offset: 2px; }
+.meds-button:disabled { background-color: var(--meddleSlate200); color: var(--meddleSlate400); cursor: not-allowed; border-color: transparent; }
+
+/* Sizes */
+.meds-button--medium { padding: 12px 16px; font-size: 16px; }
+.meds-button--small  { padding: 8px 12px; font-size: 14px; }
+
+/* Primary */
+.meds-button--primary { background-color: var(--meddleBrand600); color: var(--meddleBrand50); }
+.meds-button--primary:hover:not(:disabled) { background-color: var(--meddleBrand700); }
+
+/* Neutral */
+.meds-button--neutral { background-color: var(--meddleSlate200); color: var(--meddleSlate900); }
+.meds-button--neutral:hover:not(:disabled) { background-color: var(--meddleSlate300); }
+
+/* Subtle */
+.meds-button--subtle { background-color: transparent; color: var(--meddleBrand500); }
+.meds-button--subtle:hover:not(:disabled) { background-color: var(--meddleBrand50); }
+.meds-button--subtle:disabled, .meds-button--ghost:disabled, .meds-button--danger-subtle:disabled { background-color: transparent; }
+
+/* Ghost */
+.meds-button--ghost { background-color: transparent; color: var(--meddleSlate900); }
+.meds-button--ghost:hover:not(:disabled) { background-color: var(--meddleSlate100); }
+
+/* Danger */
+.meds-button--danger { background-color: var(--meddleRed500); color: var(--meddleRed100); }
+.meds-button--danger:hover:not(:disabled) { background-color: var(--meddleRed600); border-color: var(--meddleRed700); }
+
+/* Danger Subtle */
+.meds-button--danger-subtle { background-color: transparent; color: var(--meddleRed700); }
+.meds-button--danger-subtle:hover:not(:disabled) { background-color: var(--meddleRed200); border-color: var(--meddleRed700); }
+
+.meds-button__icon { display: inline-flex; align-items: center; justify-content: center; width: 16px; height: 16px; flex-shrink: 0; }
